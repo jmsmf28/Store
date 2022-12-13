@@ -5,7 +5,7 @@ import { GiRunningShoe } from 'react-icons/gi';
 
 const BrandDropdown = () => {
   const [brand, setbrand] = useState('Brand (any)');
-  const [brands, setbrands] = useState(["Nike", "Addidas", "Other"]);
+ //const [brands, setbrands] = useState(["Nike", "Addidas", "Other"]);
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Menu as='div' className='dropdown relative'>
