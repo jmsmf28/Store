@@ -5,7 +5,7 @@ import { Menu } from '@headlessui/react';
 
 const ProductDropdown = () => {
   const [property, setProperty] = useState('Discount product (any)');
-  const [Products, setProducts] = useState(["Nike", "Addidas", "Other"]);
+  //const [Products, setProducts] = useState(["Nike", "Addidas", "Other"]);
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Menu as='div' className='dropdown relative'>
